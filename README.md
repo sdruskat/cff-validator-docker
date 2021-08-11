@@ -44,3 +44,14 @@ Here is what really happens:
 
 When [running the container to validate](#2-run-the-docker-container-and-validate-your-citationcff-file) a CFF file, 
 you do the heavy lifting yourself by mounting the local file into the container, using `docker run -v localfile:mounttarget`.
+
+## Contributing
+
+If you want to contribute to this project, please [open an issue](https://github.com/sdruskat/simple-cff-validator-docker/issues/new/choose) first.
+Contributions are accepted via pull requests.
+Thanks!
+
+## License
+
+This work is licensed under a [CC0 1.0 Universal (CC0 1.0)
+Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license.
