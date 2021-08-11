@@ -37,5 +37,5 @@ Here is what really happens:
 6. Download the latest main version of the [Citation File Format JSON Schema file](https://raw.githubusercontent.com/citation-file-format/citation-file-format/main/schema.json) and copy it into the working directory
 7. Provide an "entrypoint" to the container, which sets all the arguments already
 
-When [running the container to validate](#2-run-the-docker-container-and-validate-your-citation-cff-file) a CFF file, 
+When [running the container to validate](#2-run-the-docker-container-and-validate-your-citationcff-file) a CFF file, 
 you do the heavy lifting yourself by mounting the local file into the container, using `docker run -v localfile:mounttarget`.
