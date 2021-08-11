@@ -11,7 +11,7 @@ If you have [Docker](https://www.docker.com/) installed, you can validate your `
 
 ```bash
 docker build -t cffvalidator \
-https://raw.githubusercontent.com/sdruskat/simple-cff-validator-docker/1.0.0/Dockerfile
+https://raw.githubusercontent.com/sdruskat/cff-validator-docker/1.0.0/Dockerfile
 ```
 
 ### 2. Run the docker container and validate your `CITATION.cff` file
