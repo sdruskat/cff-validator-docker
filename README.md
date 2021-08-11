@@ -10,7 +10,8 @@ If you have [Docker](https://www.docker.com/) installed, you can validate your `
 ### 1. Build the docker container
 
 ```bash
-docker build -t cffvalidator https://raw.githubusercontent.com/sdruskat/simple-cff-validator-docker/1.0.0/Dockerfile
+docker build -t cffvalidator \
+https://raw.githubusercontent.com/sdruskat/simple-cff-validator-docker/1.0.0/Dockerfile
 ```
 
 ### 2. Run the docker container and validate your `CITATION.cff` file
@@ -39,3 +40,5 @@ Here is what really happens:
 
 When [running the container to validate](#2-run-the-docker-container-and-validate-your-citationcff-file) a CFF file, 
 you do the heavy lifting yourself by mounting the local file into the container, using `docker run -v localfile:mounttarget`.
+
+
